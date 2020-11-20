@@ -30,3 +30,6 @@ blog-generator
 vendor
 bloggen.yml
 upload.sh
+blog
+content
+.vscode
