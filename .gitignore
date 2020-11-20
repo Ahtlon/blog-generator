@@ -31,5 +31,5 @@ vendor
 bloggen.yml
 upload.sh
 blog
-content
+content/*
 .vscode

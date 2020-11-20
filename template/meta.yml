@@ -1,0 +1,5 @@
+title: $1
+short: "$(head -c 50 $1/post.md)"
+date: $(date +"%d.%m.%Y")
+tags:
+    - post
