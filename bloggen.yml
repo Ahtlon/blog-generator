@@ -1,0 +1,41 @@
+generator:
+    repo: 'git@github.com:Ahtlon/blog.git'
+    branch: 'main'
+    tmp: 'tmp'
+    dest: 'blog'
+    userss: true
+blog:
+    url: 'https://blog.ahtlon.de'
+    language: 'de-DE'
+    description: 'test'
+    dateformat: '01.02.2020'
+    title: 'Blog'
+    author: 'Ahtlon'
+    frontpageposts: 999
+    statics:
+        files:
+            - src: 'static/favicon/favicon.ico'
+              dest: 'favicon.ico'
+            - src: 'static/robots.txt'
+              dest: 'robots.txt'     
+            - src: 'static/favicon/android-chrome-192x192.png'
+              dest: 'android-chrome-192x192.png'
+            - src: 'static/favicon/android-chrome-512x512.png'
+              dest: 'android-chrome-512x512.png'
+            - src: 'static/favicon/apple-touch-icon.png'
+              dest: 'apple-touch-icon.png'
+            - src: 'static/favicon/browserconfig.xml'
+              dest: 'browserconfig.xml'
+            - src: 'static/favicon/favicon-16x16.png'
+              dest: 'favicon-16x16.png'
+            - src: 'static/favicon/favicon-32x32.png'
+              dest: 'favicon-32x32.png'
+            - src: 'static/favicon/mstile-150x150.png'
+              dest: 'mstile-150x150.png'
+            - src: 'static/favicon/safari-pinned-tab.svg'
+              dest: 'safari-pinned-tab.svg'
+            - src: 'static/favicon/site.webmanifest'
+              dest: 'site.webmanifest'
+        templates:
+            - src: 'static/about.html'
+              dest: 'about'
